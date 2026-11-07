@@ -49,12 +49,11 @@ HyderabadTourism/
 1. Install JDK, Eclipse, Apache Tomcat 9, and MySQL.
 2. Clone or download this repository.
 3. Import the project into Eclipse as a Dynamic Web Project.
-4. Create a MySQL database named `hyderabad_tourism`.
-5. Create the required `users` and tourism spots tables.
-6. Copy `db.properties.example` into `src/main/java` and rename the copy to `db.properties`.
-7. Enter your own MySQL username and password in `db.properties`.
-8. Configure Tomcat 9 in Eclipse.
-9. Run the project on the server.
+4. Run the SQL script in `schema.sql` to create the database and required tables.
+5. Copy `db.properties.example` into `src/main/java` and rename the copy to `db.properties`.
+6. Enter your own MySQL username and password in `db.properties`.
+7. Configure Tomcat 9 in Eclipse.
+8. Run the project on the server.
 
 ## Security Note
 
